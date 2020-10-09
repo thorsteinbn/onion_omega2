@@ -18,7 +18,7 @@ for gpioElement in gpioPins:
 #populate the gpioObjects list
 for gpioElement in gpioPins:
     #instantiate a GPIO object for this pin
-    ledObj = onionGpio.onionGpio(gpioElement)
+    ledObj = onionGpio.OnionGpio(gpioElement)
     #Set to outputdirection with zero being default value
     ledObj.setOutputDirection(0)
     #add the GPIO object to the list
