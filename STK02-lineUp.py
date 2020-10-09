@@ -2,7 +2,7 @@ import onionGpio
 import time
 
 #specify sleep duration
-sleepTime = 0.5
+sleepTime = 0.2
 
 #Create and populate the list over GPIO pin numbers
 gpioPins = [0, 1, 2, 3, 18, 19]
