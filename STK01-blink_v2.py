@@ -11,10 +11,10 @@ gpio2 = onionGpio.OnionGpio(2)
 
 # set output direction to zero (LOW) as default
 gpio0.setOutputDirection(0)
+gpio1.setOutputDirection(0)
+gpio2.setOutputDirection(0)
 
-#Initialize a variable to hold the value of the LED
-ledValue = 1
-
+#Set initial valued to 0
 gpio0.setValue(0)
 gpio1.setValue(0)
 gpio2.setValue(0)
