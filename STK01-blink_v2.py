@@ -9,6 +9,11 @@ gpio0 = onionGpio.OnionGpio(0)
 gpio1 = onionGpio.OnionGpio(1)
 gpio2 = onionGpio.OnionGpio(2)
 
+gpio0._freeGpio()
+gpio1._freeGpio()
+gpio2._freeGpio()
+
+
 # set output direction to zero (LOW) as default
 gpio0.setOutputDirection(0)
 gpio1.setOutputDirection(0)
